@@ -7,8 +7,7 @@
     "node": "16.x"
   },
   "scripts": {
-    "start": "node app.js",
-    "build":"tailwind -i ./input.css -o ./css/main.css"
+    "start": "node app.js"
   },
   "keywords": [],
   "author": "",

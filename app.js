@@ -6,6 +6,10 @@ app.use(express.static('./public'))
 
 const PORT = process.env.PORT || 8080;
 
+app.use('/',(req,res)=>{
+    res.sendFile(path.resolve(__dirname,'./index/index.html'))
+})
+
 app.get('/',(req,res)=>{
     res.sendFile(path.resolve(__dirname,'./index/index.html'))
 })

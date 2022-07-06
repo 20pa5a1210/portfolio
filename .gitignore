@@ -1,10 +1,8 @@
-/node_modules/
-/package/
-/package.json/
-package.json
-package
+
 node_modules
 # dependencies
 /node_modules
+/package.json
+/package
 /package-lock
 /package-lock.json

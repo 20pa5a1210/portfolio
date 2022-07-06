@@ -21,3 +21,5 @@ app.get('/education',(req,res)=>{
 app.listen(PORT,()=>{
     console.log("Server Up and runnig");
 })
+
+module.exports = app;

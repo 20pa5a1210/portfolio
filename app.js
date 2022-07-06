@@ -6,6 +6,10 @@ app.use(express.static('./public'))
 
 const PORT = process.env.PORT || 8080;
 
+app.get('/about',(req,res)=>{
+    res.send('About Page')
+})
+
 app.use('/',(req,res)=>{
     res.sendFile(path.resolve(__dirname,'./index/index.html'))
 })
@@ -26,4 +30,3 @@ app.listen(PORT,()=>{
     console.log("Server Up and runnig");
 })
 
-module.exports = app;
